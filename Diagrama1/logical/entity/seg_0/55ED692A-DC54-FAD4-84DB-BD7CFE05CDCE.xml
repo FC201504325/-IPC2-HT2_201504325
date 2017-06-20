@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55ED692A-DC54-FAD4-84DB-BD7CFE05CDCE" name="Médico">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:29:55 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cedula" id="3A974CEE-52A5-322B-B2D2-DAB9AE0A6B7B">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:30:50 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="39F3730C-8D69-B744-E3A1-E7EBC4144024">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:31:08 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Especialidad" id="2F384425-3908-C522-39B8-76C8FE8BC3EC">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:31:19 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Hospital" id="FD3EDA39-81DD-B7B1-4F17-9B1FDADB32BA">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:38:27 UTC</createdTime>
+<generatorID>EFC1B554-1710-ABF1-5E83-0FED390602D8</generatorID>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<referedAttribute>C4C74026-699F-D370-5A5F-064AA9E21D08</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5BF7D8C-EE97-7B05-E53E-92596EBF4BF7" name="Médico PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:31:07 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A974CEE-52A5-322B-B2D2-DAB9AE0A6B7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

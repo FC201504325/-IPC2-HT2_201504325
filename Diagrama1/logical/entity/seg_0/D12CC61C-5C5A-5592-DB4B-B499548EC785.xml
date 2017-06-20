@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D12CC61C-5C5A-5592-DB4B-B499548EC785" name="Hospital">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:27:44 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Hospital" id="C4C74026-699F-D370-5A5F-064AA9E21D08">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:27:53 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="5D7D5912-714E-CDEB-D6DC-699E9E369B6A">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:28:07 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="5C355517-86CD-F58D-3059-9F753623FFDD">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:28:14 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teléfono" id="C6C7E08C-8041-1A54-D1AB-41389EC6526B">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:28:24 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Camas" id="6393DA3B-98A6-91AA-446C-196BA976AD6A">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:28:37 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6950A06D-7A36-4B51-C620-BF0778A9DA52" name="Hospital PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:28:05 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4C74026-699F-D370-5A5F-064AA9E21D08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

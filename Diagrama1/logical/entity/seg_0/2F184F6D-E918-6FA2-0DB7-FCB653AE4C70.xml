@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F184F6D-E918-6FA2-0DB7-FCB653AE4C70" name="Consulta">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:42:32 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Consulta" id="5F8B3950-5C53-DB04-7662-4068FCC64D96">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:42:39 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="276929D4-3886-B301-6D2C-5D3ADA585E61">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:42:50 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cedula_Paciente" id="2AB522E9-0E9E-44F7-7ABE-645DFEAA2C7F">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:43:45 UTC</createdTime>
+<generatorID>7D24DCBC-D987-1BEF-CECC-861A9C49583B</generatorID>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<referedAttribute>62AE17FB-DA7E-3ABB-5411-5295AACEB5E7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cedula" id="AF91D2E0-0D61-A619-06A6-90F3005A9C28">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:43:53 UTC</createdTime>
+<generatorID>77AED51E-C048-B1A6-49AD-C4355EA7F418</generatorID>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<referedAttribute>3A974CEE-52A5-322B-B2D2-DAB9AE0A6B7B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30F9CEE7-9211-17E2-562D-275B285ED230" name="Consulta PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:42:53 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F8B3950-5C53-DB04-7662-4068FCC64D96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

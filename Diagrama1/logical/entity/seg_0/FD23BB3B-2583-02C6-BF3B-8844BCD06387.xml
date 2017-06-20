@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD23BB3B-2583-02C6-BF3B-8844BCD06387" name="Paciente">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:33:25 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cedula_Paciente" id="62AE17FB-DA7E-3ABB-5411-5295AACEB5E7">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:33:30 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Registro" id="93BAE5DD-92DE-D1C6-20D0-CF30AAAD79ED">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:33:48 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Cama" id="406BCD7F-622A-F90F-0A1E-EE562B4E3D17">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:34:10 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A9EFE631-A261-A5A9-DAE0-2C00BD0281AE">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:34:32 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección" id="69C1CD03-7E7B-7F28-F6D9-3697F230970D">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:34:41 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nacimiento" id="B217B78D-79CF-96BD-A32F-7C70C0AB60C8">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:34:47 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="C79DBB8E-B540-F096-6057-FE4E84C2BDE2">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:34:58 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Sala" id="BCAD12B9-AC29-4DDF-8B58-FD5155A2D27C">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:40:46 UTC</createdTime>
+<generatorID>7D35C076-21C7-04AB-BDB6-11BBFF66A362</generatorID>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<referedAttribute>74B16A1F-8912-0B5D-3398-42E178E3E645</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04AF4D96-DA00-6E36-5C3C-6B5E4D13A1C8" name="Paciente PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:33:54 UTC</createdTime>
+<ownerDesignName>Diagrama1</ownerDesignName>
+<engineerTo>
+<item key="A86F53E4-D62E-C687-01C9-E67D079D0990" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62AE17FB-DA7E-3ABB-5411-5295AACEB5E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
