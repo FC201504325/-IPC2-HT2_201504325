@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="458B59BF-A716-5B08-51E4-B64E80949C60" name="Venta">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:01 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_Venta" id="48D93207-083A-EA77-5957-C191DD8F1D83">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:06 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="224CDED0-CCF3-716E-E695-57F693DFB472">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:12 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descuento" id="65EFC34F-5276-93E4-9CC6-A9FA670B8E19">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:24 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto_Final" id="64341A0F-E888-AD3F-242F-A7C3C98B2516">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:33 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="84FF0D65-9E09-73E4-C450-293C9B67088E">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:27:05 UTC</createdTime>
+<generatorID>A5BE9E55-D354-A00E-3B12-D0625900988B</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>68E899E9-BA94-3CDD-8B18-F4C0C8A96C5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="1DE569A6-7AE4-5668-FF26-B76A39B4391D">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:27:05 UTC</createdTime>
+<generatorID>A5BE9E55-D354-A00E-3B12-D0625900988B</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>E8CDEAFC-A389-954A-18FF-5135F2E7F876</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="68E1848E-4AF2-A1DE-BAFA-14B7735997EE">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:27:37 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prod" id="8AF6CB17-1210-8D6C-F8C5-C9D8C3DB62CE">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:28:12 UTC</createdTime>
+<generatorID>31625A0A-CEED-A88D-CB5D-05E33277DDC9</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>E0EA7085-6DF7-BADD-BA75-32D5D6ABF89F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="864A3347-990E-F2F4-99D6-CA65038D7293" name="Venta PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:26:11 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48D93207-083A-EA77-5957-C191DD8F1D83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

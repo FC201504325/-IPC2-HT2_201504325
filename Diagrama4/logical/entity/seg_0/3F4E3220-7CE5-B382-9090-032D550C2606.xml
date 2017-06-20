@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F4E3220-7CE5-B382-9090-032D550C2606" name="Proveedor">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:07 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIT_Prov" id="09C3FF8A-E72F-2689-065D-03713C087A81">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:15 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="92FC28F6-AE40-989F-1337-511C2FDF7F0F">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:24 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="33715038-E7D4-B9F8-BF29-9DA5D9140369">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:37 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pagina_Web" id="40AD0B26-23FA-0927-6DB2-23B70999370A">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:43 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Dir" id="AE3AC5B1-6953-B0DA-6347-4114D09F2B3D">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:19:38 UTC</createdTime>
+<generatorID>A2DA0CE6-C1E2-1487-0569-A0759187061D</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>4D532118-3098-1FFA-46AB-4DE8CC2BCA66</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2601384-8560-74F1-2CF3-071E0C01CEEC" name="Proveedor PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:16:22 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EF9E1CD-3F5D-0937-806A-3F9A9DED5C3D</attributeRef>
+<attributeRef>09C3FF8A-E72F-2689-065D-03713C087A81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

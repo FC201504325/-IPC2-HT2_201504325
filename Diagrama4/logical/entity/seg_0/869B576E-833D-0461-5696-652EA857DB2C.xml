@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="869B576E-833D-0461-5696-652EA857DB2C" name="Produccion">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:23:08 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Produccion" id="833B4539-0A49-570B-5BEF-2EB2C519D18D">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:23:16 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cuota" id="E57F2AFD-88FB-4690-63AA-E041FDBD2E63">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:23:24 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="20CB330F-8708-1265-5B14-FC3CF2C9338B">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:23:31 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prod" id="76465EE2-3624-A102-598B-F690F39398DA">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:24:01 UTC</createdTime>
+<generatorID>137C0007-3039-3EC4-3D02-C76A60F82921</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>E0EA7085-6DF7-BADD-BA75-32D5D6ABF89F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_5" id="650B7A61-926E-662E-AA45-011CCE8A8EA8">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:24:07 UTC</createdTime>
+<generatorID>1AFE33B7-2375-9A96-D2DC-8F30B9BC67D2</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>0EF9E1CD-3F5D-0937-806A-3F9A9DED5C3D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT_Prov" id="DE205103-6392-79A3-1581-B5415675C9BB">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:24:07 UTC</createdTime>
+<generatorID>1AFE33B7-2375-9A96-D2DC-8F30B9BC67D2</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>09C3FF8A-E72F-2689-065D-03713C087A81</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C4F1139-D46F-9DC3-AC35-A18B653AD9E7" name="Produccion PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:23:23 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>833B4539-0A49-570B-5BEF-2EB2C519D18D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

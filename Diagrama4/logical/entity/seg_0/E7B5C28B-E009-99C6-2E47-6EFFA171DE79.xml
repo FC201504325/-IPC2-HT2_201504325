@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7B5C28B-E009-99C6-2E47-6EFFA171DE79" name="Producto">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:23 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Prod" id="E0EA7085-6DF7-BADD-BA75-32D5D6ABF89F">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:33 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="E82A3E29-7794-F2BF-583A-0D7B6992A752">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:42 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stock" id="3BFBA81F-96C0-B916-15E3-C1B4E33AC409">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:51 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="25CF0C2C-A0D9-97A6-9289-AFF393BBF97C">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:56 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Cat" id="42C825D0-4F6B-B39B-0175-D301D0F2B05A">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:25:37 UTC</createdTime>
+<generatorID>480306D8-6BDC-23C7-5938-076247354091</generatorID>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<referedAttribute>02AAE6E9-04F0-0BCA-1827-55370F146F61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B4D6614-54D9-A94A-77A0-C83C9A50C1EC" name="Producto PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:21:41 UTC</createdTime>
+<ownerDesignName>Diagrama4</ownerDesignName>
+<engineerTo>
+<item key="8237A0CA-D7FB-AB8E-1EEC-2C8588694438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0EA7085-6DF7-BADD-BA75-32D5D6ABF89F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
