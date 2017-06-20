@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B197048-2235-AF77-CE9E-CFD91810E3CA" name="Prestamo">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:09:43 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Prestamo" id="FE34F6C5-5A83-BB8E-2016-8DA90BDBC7B3">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:09:50 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="B83812ED-07BE-CA12-336C-1D8D4A1F0366">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:09:58 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Libro" id="13475643-A083-73C3-B1F4-7E2F56CAD9C3">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:11:31 UTC</createdTime>
+<generatorID>D80232E1-35D7-C1CA-FC44-F2776AD3D71D</generatorID>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<referedAttribute>126A6236-2FBA-F27D-BAA6-EDA49439258C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Carnet" id="9369B722-BB9B-0B20-187A-E854A1D61414">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:11:38 UTC</createdTime>
+<generatorID>62242FC3-F079-E1AC-2BFA-347603CD9566</generatorID>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<referedAttribute>737FD990-0BCC-C15A-C479-BE1D38655B3C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8931BB9C-1CBA-84F3-55C2-BB3D9CA2F4C0" name="Prestamo PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:09:56 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE34F6C5-5A83-BB8E-2016-8DA90BDBC7B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

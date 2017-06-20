@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diagrama3" id="CB2669FF-5C85-F9C7-2AD8-39924BE27789" version="3.5">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:03:41 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CB2669FF-5C85-F9C7-2AD8-39924BE27789</designId>
+</OSDM_Design>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DC04DEB-1AB4-D5ED-8518-DF59F583E386" name="Libro">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:05:58 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Libro" id="126A6236-2FBA-F27D-BAA6-EDA49439258C">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:06:17 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="B449877D-EB68-A863-FD75-0A52E4C16B68">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:06:31 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Ejemplares" id="11ED9A1B-2896-C696-346C-E33ED2F8DD21">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:06:39 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Paginas" id="A86B0A03-653E-17B5-55FB-F0BE183CDA52">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:06:53 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tema" id="0DBBA92E-35AE-5803-799B-1A2EEAEBF254">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:07:05 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Autor" id="5E6CF73B-6BD2-343F-5CA2-66855A2C49B8">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:09:25 UTC</createdTime>
+<generatorID>806CF961-F98F-416C-C986-07E118C5F433</generatorID>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<referedAttribute>3706B3EF-26A6-1E85-FCF8-DEEF0D8117FD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="578A610D-EBD2-093E-ED1A-73CD68AD8ACE" name="Libro PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:06:21 UTC</createdTime>
+<ownerDesignName>Diagrama3</ownerDesignName>
+<engineerTo>
+<item key="C5FD94D1-7909-CDD6-EE03-D01368B5A80B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>126A6236-2FBA-F27D-BAA6-EDA49439258C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
