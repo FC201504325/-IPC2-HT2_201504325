@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A91D56B4-CA74-6415-4525-EB89EF27C75C" name="Carretera">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:56:34 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Carretera" id="EAF81874-4EC1-127E-A573-4B5ED6EEC0E7">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:56:41 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distancia" id="B0B9A253-ABBD-91A4-2A49-D87FB4180617">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:56:55 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="E663A0A5-10C7-64DA-8027-483CA7BABC5E">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:57:18 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pais" id="1FD3FCF3-1899-39D4-1F6D-28CF8D782A6B">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:57:38 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Tipo" id="ABAFFFC5-293F-60AE-80DC-2E93F9CB8CD4">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:00:40 UTC</createdTime>
+<generatorID>2A071332-35AF-4AD3-6643-A7A6319E7B38</generatorID>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<referedAttribute>5FF9B3F9-8597-5626-73B2-B4ECC74B41A0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F80BAA2A-8023-057D-257B-4B8A3D1E4865" name="Carretera PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:56:42 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAF81874-4EC1-127E-A573-4B5ED6EEC0E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

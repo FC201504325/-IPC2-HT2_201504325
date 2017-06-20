@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF8699ED-3A9F-5165-3391-6BAAEE035064" name="Tipo_Tramo">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:59:41 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_TipoTramo" id="D8C6A1C1-0059-86D3-FB46-1B6DEC018847">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:59:50 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="846F871D-3362-FE53-94BA-6470DCDD0089">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 05:00:06 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8D6FEE3-3852-D4EC-662F-B4D2890C6596" name="Tipo_Tramo PK">
+<createdBy>fcarv</createdBy>
+<createdTime>2017-06-20 04:59:57 UTC</createdTime>
+<ownerDesignName>Diagrama2</ownerDesignName>
+<engineerTo>
+<item key="7423BAC2-003F-7AE8-A744-88312BB39175" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8C6A1C1-0059-86D3-FB46-1B6DEC018847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
